@@ -1,2 +1,2 @@
 # litepods
-LIinks To Everything PODS (Programme Of Data Science)
+LIinks To Everything PODS (Programme On Data Science)

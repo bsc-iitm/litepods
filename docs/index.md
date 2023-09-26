@@ -1,0 +1,2 @@
+# Resources homepage for Everyone
+

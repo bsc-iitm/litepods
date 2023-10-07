@@ -106,6 +106,8 @@ extra:
 #site navigation
 
 nav:
+  - Home:
+      - index.html
   - For Everyone: 
       - Official: everyone/official.md
       - Unofficial: everyone/unofficial.md

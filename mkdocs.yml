@@ -23,21 +23,21 @@ theme:
 
   #when editing a page
   theme:
-  icon:
-    edit: material/pencil 
-    view: material/eye
+  # icon:
+  #   edit: material/pencil 
+  #   view: material/eye
 
   palette:
     #light mode
     - scheme: default
-      primary: blue grey
+      primary: teal
       accent: blue
       toggle:
         icon: material/lightbulb-outline
         name: Switch to dark mode
     #dark mode
     - scheme: slate
-      primary: blue grey
+      primary: teal
       accent: blue
       toggle:
         icon: material/lightbulb
@@ -147,4 +147,5 @@ nav:
       bsc/index.md
   - BS:
       bs/index.md
+  - How to Contribute: contribute/index.html
   - Updates: updates/index.html

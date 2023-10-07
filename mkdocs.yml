@@ -30,14 +30,14 @@ theme:
   palette:
     #light mode
     - scheme: default
-      primary: white
+      primary: blue grey
       accent: blue
       toggle:
         icon: material/lightbulb-outline
         name: Switch to dark mode
     #dark mode
     - scheme: slate
-      primary: black
+      primary: blue grey
       accent: blue
       toggle:
         icon: material/lightbulb
@@ -52,7 +52,7 @@ theme:
     - search.suggest
     - navigation.instant
     # - navigation.footer
-    # - navigation.sections
+    - navigation.sections
     - navigation.tabs
     - navigation.top
     - navigation.tracking
@@ -84,8 +84,10 @@ markdown_extensions:
 
 plugins:
   - blog:
+      archive: false
+      categories: false
       post_date_format: full
-      blog_dir: blog
+      blog_dir: updates
       # post_dir: "{blog}/articles"
       archive_date_format: MMMM yyyy
       post_readtime: true
@@ -104,17 +106,45 @@ extra:
 #site navigation
 
 nav:
-  - Home:
-      index.md
-  - For Everyone:
-      everyone/index.md
+  - For Everyone: 
+      - Official: everyone/official.md
+      - Unofficial: everyone/unofficial.md
+      - Paradox: everyone/paradox.md
   - Foundation:
-      foundation/index.md
+      - Maths 1: foundation/maths_1.md
+      - Stats 1: foundation/stats_1.md
+      - CT: foundation/ct.md
+      - Python: foundation/python.md
+      - Maths 2: foundation/maths_2.md
+      - Stats 2: foundation/stats_2.md
+      - English 1: foundation/english_1.md
+      - English 2: foundation/english_2.md
+      
   - Diploma Programming:
-      diploma_programming/index.md
+      - Courses:
+          - PDSA: diploma_programming/pdsa.md
+          - MAD 1: diploma_programming/mad_1.md
+          - MAD 2: diploma_programming/mad_2.md
+          - DBMS: diploma_programming/dbms.md
+          - System Commands: diploma_programming/system_commands.md
+          - JAVA: diploma_programming/java.md
+      - Projects: 
+          - MAD 1 - Project: diploma_programming/mad_1_project.md
+          - MAD 2 - Project: diploma_programming/mad_2_project.md
+
   - Diploma Data Science:
-      diploma_data-science/index.md
+      - Courses:
+          - Machine Learning Foundations: diploma_ds/mlf.md
+          - Machine Learning Techniques: diploma_ds/mlt.md
+          - Machine Learning Practice: diploma_ds/mlp.md
+          - Business Analytics: diploma_ds/ba.md
+          - Business Data Management: diploma_ds/bdm.md
+          - Tools in Data Science: diploma_ds/tds.md
+      - Projects:
+          - Machine Learning Practice - Project: diploma_ds/mlp_project.md
+          - Business Data Management - Project: diploma_ds/bdm_project.md
   - BSc:
       bsc/index.md
   - BS:
       bs/index.md
+  - Updates: updates/index.html

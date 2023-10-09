@@ -5,7 +5,7 @@ site_url: https://bsc-iitm.github.io/litepods
 # Repository
 repo_name: bsc-iitm/litepods
 repo_url: https://github.com/bsc-iitm/litepods
-edit_uri: edit/unstable/docs/
+edit_uri: edit/main/docs/
 
 theme:
   name: material

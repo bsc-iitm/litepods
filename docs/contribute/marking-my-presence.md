@@ -1,1 +1,1 @@
-### Thanks to these Contributors
+# Thanks to these Contributors

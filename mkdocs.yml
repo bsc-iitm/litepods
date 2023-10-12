@@ -149,5 +149,7 @@ nav:
       bsc/index.md
   - BS:
       bs/index.md
-  - How to Contribute: contribute/index.html
+  - How to Contribute: 
+      - contribute/index.html
+      - Contributors : contribute/marking-my-presence.md
   - Updates: updates/index.html

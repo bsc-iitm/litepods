@@ -17,3 +17,5 @@ After making appropriate changes (add/update links) you've to create pull reques
 
 After being merged, your changes will reflect on the site.
 
+!!! tip "Mark your Presence!!!"
+   If you don't have any new idea for any change, but you still want to try editing, try adding your name and a link, to your github account, or any of your projects [on this page](contribute/we-are-the-contributors.md). This will get you started editing a document, without actually having something to edit. `Have fun!!`

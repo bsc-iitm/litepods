@@ -80,6 +80,8 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - admonition
+  - pymdownx.details
+
 
 
 plugins:

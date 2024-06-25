@@ -110,7 +110,8 @@ extra:
 nav:
   - Home:
       - index.html
-  - For Everyone: 
+  - For Everyone:
+      - Academics: everyone/academics.md
       - Official: everyone/official.md
       - Unofficial: everyone/unofficial.md
       - Paradox: everyone/paradox.md
